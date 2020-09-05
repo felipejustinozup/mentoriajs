@@ -1,5 +1,6 @@
 Hoisting - Hoisting uma maneira de pensar sobre como os contextos de execução funcionam em javaScript, que salva em 
 memoria as variaveis na fase de compilação, assim podendo busca uma variavel sem antes declara
+        -  depende do motor do browser
 example:
 bla = 2
 var bla;
@@ -27,5 +28,6 @@ Const - Variavel de valor fixo
       - não pode ser alterada ou retribuída.
       - pode ser declarada no escopo global, mas não é atribuida ao objeto window
       - obrigatoriamente inicia com um valor
+      - não altera a memória
 
-Temporal dead zone?
+Temporal deadzone?
