@@ -31,3 +31,9 @@ Const - Variavel de valor fixo
       - não altera a memória
 
 Temporal deadzone?
+dataTypes - Tipagem dinamica
+          - Reatribuir a mesma variavel com tipo diferente
+          - Valores primitivos são imutaveis
+          - Objetos
+            - Propriedades são identificadas usando valores chave. Um valor chave pode ser uma String ou um valor Symbol.
+            - Propriedades podem assumir valores de qualquer tipo
